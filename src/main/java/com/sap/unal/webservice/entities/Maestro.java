@@ -23,7 +23,7 @@ public class Maestro {
     private String ENC_SEDE;
 
     @Column(name="ENC_VIGENCIA")
-    private String ENC_VIGENCIA;
+    private Long ENC_VIGENCIA;
 
     @Column(name="ENC_NITEMES")
     private String ENC_NITEMES;
@@ -38,25 +38,25 @@ public class Maestro {
     private String ENC_FECEMIC;
 
     @Column(name="ENC_TIPODOC")
-    private String ENC_TIPODOC;
+    private Long ENC_TIPODOC;
 
     @Column(name="ENC_FORMAPAGO")
-    private String ENC_FORMAPAGO;
+    private Long ENC_FORMAPAGO;
 
     @Column(name="ENC_FECPAGO")
     private String ENC_FECPAGO;
 
     @Column(name="ENC_MEDIOPAGO")
-    private String ENC_MEDIOPAGO;
+    private Long ENC_MEDIOPAGO;
 
     @Column(name="ENC_DESCUENTO")
-    private String ENC_DESCUENTO;
+    private Long ENC_DESCUENTO;
 
     @Column(name="ENC_SUBTOTAL")
-    private String ENC_SUBTOTAL;
+    private Long ENC_SUBTOTAL;
 
     @Column(name="ENC_TOTAL")
-    private String ENC_TOTAL;
+    private Long ENC_TOTAL;
 
     @Column(name="ENC_OBSERVACIONES")
     private String ENC_OBSERVACIONES;
@@ -77,13 +77,13 @@ public class Maestro {
     private String ENC_EMAIL_SEDE_EMISION;
 
     @Column(name="ENC_CLINATU")
-    private String ENC_CLINATU;
+    private Long ENC_CLINATU;
 
     @Column(name="ENC_CLINOMB")
     private String ENC_CLINOMB;
 
     @Column(name="ENC_CLI_TIPOID")
-    private String ENC_CLI_TIPOID;
+    private Long ENC_CLI_TIPOID;
 
     @Column(name="ENC_CLI_NUMID")
     private String ENC_CLI_NUMID;
@@ -104,7 +104,7 @@ public class Maestro {
     private String ENC_CLIRESPFIS;
 
     @Column(name="ENC_CLIRESPIVA")
-    private String ENC_CLIRESPIVA;
+    private Long ENC_CLIRESPIVA;
 
     @Column(name="ENC_DOCU_HIJO")
     private String ENC_DOCU_HIJO;
@@ -155,14 +155,14 @@ public class Maestro {
     private String ENC_POLIZA;
 
     @Column(name="ENC_COPAGO")
-    private String ENC_COPAGO;
+    private Long ENC_COPAGO;
 
     @Column(name="ENC_CUOTA_MODERADORA")
-    private String ENC_CUOTA_MODERADORA;
+    private Long ENC_CUOTA_MODERADORA;
 
     @Column(name="ENC_CUOTA_RECUPERACION")
-    private String ENC_CUOTA_RECUPERACION;
+    private Long ENC_CUOTA_RECUPERACION;
 
     @Column(name="ENC_PAGOS_COMPARTIDOS")
-    private String ENC_PAGOS_COMPARTIDOS;
+    private Long ENC_PAGOS_COMPARTIDOS;
 }

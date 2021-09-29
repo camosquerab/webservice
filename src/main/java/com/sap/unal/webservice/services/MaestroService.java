@@ -17,10 +17,7 @@ public class MaestroService {
     EntityManager entityManager;
 
     public List findByQuery(String date){
-        String query = "select s.* from (select @p1\\:='%s' p) parm , Maestro s";
-        String sql = String.format(query, date);
-        List maestro = entityManager.createNativeQuery(sql).getResultList();
-        System.out.println(maestro.toString());
+        List<Maestro> maestro = maestroRepository.findMaestro(date);
         return maestro;
     }
 }

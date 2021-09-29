@@ -18,9 +18,7 @@ public class MaestroController {
 
     @GetMapping(path = "/date", produces = MediaType.APPLICATION_JSON_VALUE)
     public Object findByQuery(@RequestParam("date") String date) {
-
         try {
-            System.out.println("date: !!!!!!" + date);
             return maestroService.findByQuery(date);
         } catch (Exception e) {
             return e;
