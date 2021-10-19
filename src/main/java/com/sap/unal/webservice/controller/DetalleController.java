@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/detalle")
+@RequestMapping("/tomcat9/detalle")
 public class DetalleController {
 
     @Autowired

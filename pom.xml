@@ -10,12 +10,12 @@
 	</parent>
 	<packaging>war</packaging>
 	<groupId>com.sap.unal</groupId>
-	<artifactId>webservice</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>webservice</name>
+	<artifactId>tomcat9</artifactId>
+
+	<name>tomcat9</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -53,6 +53,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.25</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -68,6 +69,14 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>

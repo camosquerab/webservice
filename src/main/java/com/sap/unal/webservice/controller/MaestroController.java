@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/maestro")
+@RequestMapping("/tomcat9/maestro")
 public class MaestroController {
 
     @Autowired
