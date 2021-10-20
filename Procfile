@@ -1,1 +1,1 @@
-web: java -Dspring.profiles.active=default -Dserver.port=8080 -war target/*.war
+web: java -Dspring.profiles.active=default -Dserver.port=8080 -jar target/*.war
