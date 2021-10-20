@@ -24,4 +24,8 @@ public class DetalleController {
         }
     }
 
+    @GetMapping(path = "/healthcheck")
+    public String healthcheck() {
+        return "Application OK";
+    }
 }
