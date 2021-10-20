@@ -1,0 +1,1 @@
+web: java -Dspring.profiles.active=default -Dserver.port=8080 -jar target/*.jar
